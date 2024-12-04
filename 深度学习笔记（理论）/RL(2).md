@@ -4,13 +4,13 @@
 
 **Actor-Critic**
 
-<font color=blue>critic:</font>给定一个actor的$$\theta$$，去衡量在观测到s后的行为好坏情况
+<font color=blue>critic:</font>给定一个actor的 $$\theta$$，去衡量在观测到s后的行为好坏情况
 
 
 
 用value function来衡量：
 
-$$V^{\theta}(s)$$在给定s后的$$G_{i}=r_{i}+\gamma*r_{i+1}+......$$的<font color=red>期望值</font>.
+$$V^{\theta}(s)$$在给定s后的 $$G_{i}=r_{i}+\gamma*r_{i+1}+......$$ 的<font color=red>期望值</font>.
 
 
 
@@ -114,4 +114,4 @@ $$A_{t}=r_{t}+V^{\theta}(s_{t+1})-V^{\theta} (s_{t})$$
 
 步骤：
 
-<img src="/Users/Zhuanz/Desktop/深度学习笔记（理论）/imgCollect/RL(2)(4).png" alt="RL(2)(4)" style="zoom:40%;" />
+<img src="../深度学习笔记（理论）/imgCollect/RL(2)(4).png" alt="RL(2)(4)" style="zoom:40%;" />
