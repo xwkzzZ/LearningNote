@@ -60,7 +60,7 @@ train一个vector2source的net，如果原本的net真的提取到关键的信�
 
 去train出一个图片，能够使得经过某一层layer后的输出最大，去看这个layer到底提取些什么，它的轻重
 
-这个$$X^{*}$$  就是layer的一种“代表”
+这个 $$X^{*}$$  就是layer的一种“代表”
 
 
 
