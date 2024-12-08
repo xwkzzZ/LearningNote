@@ -50,3 +50,23 @@ GPT：主要用于后续内容的预测
 
 但是GPT在第三代时正确率还是比较低的
 
+
+
+
+<font size=8>ChatGPT</font>
+
+
+
+**pre-train**
+
+提供老师资料并让他学习，机器的能力是有限的，它非常依赖资料量，而且资料也是有限的
+
+
+
+**THEN**
+
+从网络上爬去资料，只管讲资料前部分作为输入，后部分作为资料的输出的预测内容,再进行supervised-learning，成为今天的chatgpt,同时还加上RL。三步走
+
+<img src="../深度学习笔记（理论）/imgCollect/GPT(2).png" alt="GPT(2)" style="zoom:40%;" />
+
+
