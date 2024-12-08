@@ -58,7 +58,7 @@ THEN!:
 
 <font color=blue>FID</font>:
 
-数值越好，生成的质量越好
+数值越低，生成的质量越好
 
 <img src="../深度学习笔记（理论）/imgCollect/Diffusion(4).png" alt="Diffusion(4)" style="zoom:40%;" />
 
