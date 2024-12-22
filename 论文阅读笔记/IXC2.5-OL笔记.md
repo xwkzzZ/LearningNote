@@ -174,8 +174,8 @@ $$\hat{H_{k}}\in R^{1\times C}$$
 
 
 **Video Clip Retrieval.**
+将tokenize后的问题和long term memory连接(concate)，并输入给compressor。然后将输出的最后一个token与global memory作相似度对比，取出相关程度最高的clip作为输入，传递给Reasoning Module
 
-将tokenize后的问题和long term memory连接(concate)，然后作为compressor的输入，然后拿出输出的最后一个token，然后将这个token与global memory作相似度对比，拿出最相关的输入给Reasoning Module
 
 
 
@@ -243,7 +243,7 @@ Here is the question related memory < |Mem| >
 
 **VAD**:连续地从audio queue读入数据，并识别audio的起始和结束
 
-一旦检测到开始信号，后端就立即向前端传入audio终端信号
+一旦检测到开始信号，后端就立即向前端传入audio终断信号
 
 并且保存memory state
 
