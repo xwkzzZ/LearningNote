@@ -1,6 +1,6 @@
 <font size=8>MoReVQA笔记</font>
 
-
+[原文](https://openaccess.thecvf.com/content/CVPR2024/papers/Min_MoReVQA_Exploring_Modular_Reasoning_Models_for_Video_Question_Answering_CVPR_2024_paper.pdf)
 
 <font size=5>**1. Introduction**</font>
 
